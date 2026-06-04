@@ -1,4 +1,18 @@
-"use client";
+"use client";export default function GeminiChat() {
+  // ... (الكود الخاص بكِ يبقى كما هو في الأعلى)
+
+  return (
+    <main> {/* أضيفي هذا الوسم هنا */}
+      <div className="flex flex-col h-screen max-w-2xl mx-auto p-4 bg-white shadow-lg">
+        <h1 className="text-xl font-bold p-4 border-b">Gemini Smart Assistant</h1>
+        
+        {/* ... بقية محتويات الصفحة ... */}
+        
+      </div>
+    </main> // وتأكدي من إضافة وسم الإغلاق هنا في نهاية الدالة قبل القوس ) }
+  );
+}
+
 import { useState } from 'react';
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import { Send, Bot, User, Loader2 } from 'lucide-react'; // تأكدي من تثبيت lucide-react
